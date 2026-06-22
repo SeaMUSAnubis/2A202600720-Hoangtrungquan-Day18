@@ -5,7 +5,7 @@ Basic = paragraph chunking + dense-only search (không hybrid, không rerank, kh
 Đây là RAG đã học ở buổi trước — hôm nay sẽ cải thiện từng bước.
 """
 
-import sys, os, time
+import os, sys, time, json
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
